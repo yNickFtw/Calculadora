@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora Simples</h1>
+    </header>
+    <main>
+        <form>
+            <input type="number" id="n1" placeholder="Digite o primeiro número">
+            <select name="" id="selector">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">x</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" id="n2" placeholder="Digite o segundo número">
+        </form>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <div>
+            <h3 id="resultado"></h3>
+        </div>
+
+        <p id="me">Desenvolvido por | Nicolas Freitas</p>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
