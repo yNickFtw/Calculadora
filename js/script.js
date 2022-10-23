@@ -18,7 +18,7 @@ function calcular(n1, n2) {
             break
 
         case '/':
-            calculo = (n1 / n2)
+            calculo = Math.round((n1 / n2))
             document.getElementById(document.getElementById("resultado").innerHTML = `O resultado da divisão de ${n1} / ${n2} é = ${calculo}`)
 
             break
